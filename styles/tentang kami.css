@@ -1,0 +1,42 @@
+#content a{
+  text-decoration: none;
+}
+
+#content{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.card{
+  background-color: rgba(255,255,255, .4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  color: #808080;
+  transition: .5s;
+}
+
+.card h2{
+  flex: 1;
+}
+
+.card img{
+  flex: 2;
+
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px 0 #696969;
+  color: #363636;
+  transition: .5s;
+  background-color: rgba(255,255,255, .7);
+  transform: scale(.9);
+}
